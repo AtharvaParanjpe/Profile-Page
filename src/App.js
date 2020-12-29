@@ -6,6 +6,7 @@ import Resume from "./components/Resume";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Education from "./components/Education"
 
 import "./App.css";
 
@@ -17,6 +18,7 @@ function App() {
       <Switch>
         <Route exact path="/Profile-Page" component={Home} />
         <Route exact path="/" component={Home} />
+        <Route exact path="/education" component={Education} />
         <Route exact path="/resume" component={Resume} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
